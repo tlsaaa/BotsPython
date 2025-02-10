@@ -34,9 +34,10 @@ while postou < 1000:
     if valor < 10:
      url_nova = f'{url}{codigo[cont_codigo]}-00{valor}'
      driver.get(url_nova)
-     time.sleep(20)
+     time.sleep(5)
      try:
-      image = driver.find_element(By.CLASS_NAME, "x1n2onr6")
+      image = driver.find_element(By.XPATH, '//img[@class="xt7dq6l xl1xv1r x6ikm8r x10wlt62 xh8yej3"]')
+      time.sleep(3)
       image.click()
       time.sleep(10)
       try:
@@ -64,7 +65,7 @@ while postou < 1000:
        nao_encontrado+=1
        lista_de_nao_encontrado.append(f'{codigo[cont_codigo]}-00{valor}')
  
-     except ElementNotInteractableException:
+     except NoSuchElementException:
       try: 
        caso_2 = driver.find_element(By.XPATH, "//*[text()='Tente usar outras palavras-chave ou confira se está tudo escrito corretamente']")
        time.sleep(2)
