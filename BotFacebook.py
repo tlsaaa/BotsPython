@@ -25,7 +25,22 @@ nao_encontrado = 0
 url = 'https://web.facebook.com/marketplace/you/selling?title_search='
 codigo = ["TRV", "CSV", "OUT", "APV", "LOC"]
 cont_codigo = 0
-lista_de_nao_encontrado = ["TRV-001"]
+lista_de_nao_encontrado = ["TRV-001","TRV-010", "TRV-014", "TRV-017", "TRV-020", "TRV-021", "TRV-024", "TRV-025", "TRV-027",
+    "LOC-001", "LOC-003", "LOC-004", "LOC-006", "LOC-008", "LOC-009", "LOC-010", "LOC-011", "LOC-012", "LOC-013", 
+    "LOC-014", "LOC-015", "LOC-017", "LOC-019", "LOC-020", "LOC-022", "LOC-023", "LOC-024", "LOC-025", 
+    "LOC-026", "LOC-027", "LOC-028", "LOC-034", "LOC-035", "LOC-036", "LOC-039",
+    "OUT-001", "OUT-004", "OUT-005", "OUT-006", "OUT-007", "OUT-008", "OUT-009", "OUT-010", "OUT-011", 
+    "OUT-012", "OUT-013", "OUT-014", "OUT-015", "OUT-016", "OUT-017", "OUT-018",
+    "APV-002", "APV-003", "APV-005", "APV-006", "APV-007", "APV-008", "APV-009", "APV-011", "APV-012", 
+    "APV-013", "APV-014", "APV-016", "APV-017", "APV-018", "APV-019", "APV-020", "APV-021", "APV-022", 
+    "APV-025", "APV-027", "APV-028", "APV-029",
+    "CSV-002", "CSV-003", "CSV-004", "CSV-005", "CSV-006", "CSV-008", "CSV-009", "CSV-010", "CSV-011", 
+    "CSV-012", "CSV-013", "CSV-014", "CSV-016", "CSV-017", "CSV-019", "CSV-021", "CSV-023", "CSV-025", 
+    "CSV-027", "CSV-028", "CSV-030", "CSV-033", "CSV-035", "CSV-036", "CSV-037", "CSV-038", "CSV-042", 
+    "CSV-043", "CSV-045", "CSV-046", "CSV-047", "CSV-048", "CSV-049", "CSV-050", "CSV-052", "CSV-053", 
+    "CSV-054", "CSV-055", "CSV-056"
+]
+
 
 while postou < 1000:
  if cont_postou < 20:
