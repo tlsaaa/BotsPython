@@ -90,7 +90,7 @@ while postou < 1000:
 
       except NoSuchElementException:
        print("erro ao tentar clicar na imagem")
-       break
+       time.sleep(50)
 
     else:
      url_nova = f'{url}{codigo[cont_codigo]}-0{valor}'
@@ -137,7 +137,7 @@ while postou < 1000:
 
       except NoSuchElementException:
        print("erro ao tentar clicar na imagem")
-       break
+       time.sleep(50)
 
    else:
     if cont_codigo < 3:
